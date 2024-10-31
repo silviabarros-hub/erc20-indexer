@@ -5,20 +5,6 @@ This is a skeleton app that uses the Alchemy SDK integrated with Alchemy's Enhan
 1. Install dependencies by running npm install
 2. Start the application by running npm start
 
-# Project Structure
-The main components and files are organized as follows:
-
-src
-├── components
-│   ├── AddressInput.js          # Input field for Ethereum address
-│   ├── BalanceDisplay.js        # Displays queried token balances
-│   ├── ConnectWalletButton.js   # Button for wallet connection
-│   ├── Spinner.js               # CircularProgress component for loading state
-│   └── index.js                 # Central export for components
-├── services
-│   └── alchemyConfig.js         # Alchemy configuration and API functions
-└── App.js                       # Main app component
-
 # Configuration
 Update your Alchemy API key in alchemyConfig.js by replacing the placeholder key with your own for accurate data retrieval from the Ethereum network.
 
