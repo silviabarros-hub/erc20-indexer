@@ -58,24 +58,24 @@ function App() {
         <Heading mt={42}>
           Get all the ERC-20 token balances of this address:
         </Heading>
-      <WalletActions 
-        fetchTokenBalance={fetchTokenBalance}
-        userAddress={userAddress}
-        setUserAddress={setUserAddress}
-        connected={connected}
-        setConnected={setConnected}
-        setHasQueried={setHasQueried}
-        setProvider={setProvider}
-        setResults={setResults}
-        setTokenDataObjects={setTokenDataObjects}
-      />
-      <Heading my={36}>ERC-20 token balances:</Heading>
-      <TokenBalances 
-        loading = {loading}
-        hasQueried = {hasQueried}
-        results = {results}
-        tokenDataObjects = {tokenDataObjects}
-      />        
+        <WalletActions
+          fetchTokenBalance={fetchTokenBalance}
+          userAddress={userAddress}
+          setUserAddress={setUserAddress}
+          connected={connected}
+          setConnected={setConnected}
+          setHasQueried={setHasQueried}
+          setProvider={setProvider}
+          setResults={setResults}
+          setTokenDataObjects={setTokenDataObjects}
+        />
+        <Heading my={36}>ERC-20 token balances:</Heading>
+        <TokenBalances
+          loading = {loading}
+          hasQueried = {hasQueried}
+          results = {results}
+          tokenDataObjects = {tokenDataObjects}
+        />
       </Flex>
     </Box>
   );
